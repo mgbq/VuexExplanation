@@ -319,7 +319,7 @@ actions:{
                 
                 onReduce(index){ 
                     //我们在methods中定义了onReduce方法，相应的Dom中的click事件名要改成onReduce
-                    this.reduceGoods(index)
+                      this.goodsReduce(index)
                     //这相当于调用了store.js的方法，这样是不是觉得满意了
                 }
                 
